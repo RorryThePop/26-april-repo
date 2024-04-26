@@ -1,7 +1,5 @@
 console.log('hello, Alina')
-
-
-throw new Error()
+console.log('now i work only in script')
 
 console.log('confilct')
 
