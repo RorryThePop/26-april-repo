@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.overlay {
+    padding: 15px 0;
+    background: #d4e9f9;
+    position: relative;
+}
+
+.overlay__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+
+.overlay__content h3 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.overlay__triggers {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+}
+
+.overlay__triggers button {
+    background: transparent;
+    border: none;
+    color: #292929;
+    opacity: 0.8;
+}
